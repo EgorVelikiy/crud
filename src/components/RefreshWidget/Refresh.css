@@ -1,0 +1,29 @@
+.refresh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80px;
+    height: 80px;
+
+    border: 1px solid black;
+    border-radius: 50%;
+
+    color: rgb(32, 190, 32);
+    background: white;
+    font-size: 2rem;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+.refresh-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    width: 95%;
+}
+
+.title {
+    margin-right: 50px;
+}

@@ -1,0 +1,32 @@
+.note {
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.close-btn {
+    position: relative;
+    display: block;
+    left: 94%;
+    top: -15px;
+    width: 35px;
+    height: 35px;
+
+    border: 1px solid black;
+    border-radius: 50%;
+    color: red;
+    
+    cursor: pointer;
+    user-select: none;
+}
+
+.note-container {
+    display: flex;
+    text-align: center;
+    height: 75%;
+    align-items: center;
+    justify-content: center;
+}
